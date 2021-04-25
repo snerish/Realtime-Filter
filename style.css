@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+
+h3,html
+{
+    font-size: 25px !important;
+    font-family: 'New Tegomin', serif;
+
+}
+.btn-success:hover{
+    background-color: red;
+}
+.btn-info:hover{
+    background-color: orange;
+}
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    from {box-shadow: 18px 18px 38px red;}
+    to {box-shadow: 18px 18px 38px rgb(25, 0, 255);}
+}
